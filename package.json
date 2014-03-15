@@ -1,0 +1,46 @@
+{
+  "name": "lineman-coffee",
+  "title": "CoffeeScript plugin for Lineman, using grunt-contrib-coffee",
+  "description": "Provide CoffeeScript functionality to your Lineman application.",
+  "keywords": [
+    "lineman",
+    "grunt",
+    "coffee"
+  ],
+  "version": "0.0.2",
+  "homepage": "http://www.linemanjs.com",
+  "author": {
+    "name": "Justin Searls",
+    "company": "Test Double",
+    "email": "justin@testdouble.com"
+  },
+  "contributors": [
+    {
+      "name": "Jay Harris",
+      "email": "jay@aranasoft.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/linemanjs/lineman-coffee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linemanjs/lineman-coffee/issues"
+  },
+  "main": "index",
+  "dependencies": {
+    "grunt-contrib-coffee": "~0.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "peerDependencies": {
+    "lineman": ">= 0.27.0"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://mit-license.org"
+    }
+  ]
+}
